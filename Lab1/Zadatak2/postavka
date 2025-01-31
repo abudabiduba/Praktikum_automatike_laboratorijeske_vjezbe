@@ -1,0 +1,18 @@
+Zadatak 2
+
+Mbed simulator
+Dodati 8 LED dioda i korištenjem tih dioda realizovati binarni brojač, koji se uvećava za jedan
+svake sekunde. Svakim klikom na BUTTON1 smjer brojanja se treba mijenjati. Modificirati kod
+takoda brojač broji unazad kada je BUTTON1 pritisnut (obratiti pažnju na napomenu o načinu
+simuliranja pritisnutog tastera).
+
+Hint
+Umjesto pojedinačnih digitalnih izlaza, za rješavanje ovog zadatka je pogodnije koristiti
+podršku za višebitne digitalne izlaze BusOut u Mbed-u.
+
+LPC1114ETF
+Isti program izvrˇsiti na razvojnom sistemu LPC1114ETF.
+
+Napomena
+  Voditi računa da je potrebno preimenovati nazive LED dioda, 
+  u skladu sa nazivima navedenim na slici.
