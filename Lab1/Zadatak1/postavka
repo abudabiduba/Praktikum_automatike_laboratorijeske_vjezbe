@@ -1,0 +1,23 @@
+Zadatak 1
+
+Mbed simulator
+Napisati i izvršiti sljedeći program na Mbed simulatoru:
+#include "mbed.h"
+DigitalOut myled(LED1);
+int main() {
+  while(1) {
+    myled = 1;
+    wait(1);
+    myled = 0;
+    wait(1);
+  }
+}
+Nakon toga modificirati kod tako da se pale i gase redom LED1, LED2, LED3 i LED4, tako da se prvo upali LED1 u trajanju od 1s, zatim ugasi LED1 u trajanju od 1s. 
+Nakon toga se upali LED2 u trajanju od 1s i ugasi LED2 u trajanju od 1s, itd.
+
+LPC1114ETF
+Izvršiti obje verzije programa i na razvojnom sistemu LPC1114ETF.
+Napomena:
+  Voditi računa da je za prikaz na LED diodama na razvojnom sistemu LPC1114ETF potrebno
+  pin LED ACT postaviti na 0V, inače su pinovi mikrokontrolera povezani na
+  header.
